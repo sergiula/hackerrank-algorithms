@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@v2
     
     - name: Action - GolangCI Lint
-    uses: matoous/golangci-lint-action@v1.0.0
+      uses: matoous/golangci-lint-action@v1.0.0
     
     - name: Get dependencies
       run: |
